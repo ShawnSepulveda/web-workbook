@@ -12,9 +12,9 @@ body{
   border-radius: 5px;
 }
 /*to change the color of <div> when hovered over*/
-div:hover{
+/*div:hover{
   background-color: green;
-}
+}*/
 /*for first letter of <div>*/
 p::first-letter {
   text-transform: uppercase;
