@@ -1,0 +1,21 @@
+body {
+  background: url(../img/airline.jpg) no-repeat center center fixed;
+}
+.logo{
+  background: url(../img/logo.png);
+  width: 100%;
+  position: relative;
+}
+header {
+  display: inline-block;
+  text-decoration: none;
+}
+.nav{
+  width: 50%;
+  position: relative;
+}
+li{
+  display: inline-block;
+  float:right;
+  text-decoration: none;
+}
