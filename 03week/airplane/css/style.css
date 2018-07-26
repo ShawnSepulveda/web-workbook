@@ -1,18 +1,17 @@
 body {
-  background: url(../img/airline.jpg) no-repeat center center fixed;
+  background: url('../img/airline.jpg') no-repeat center center fixed;
+  position:relative;
 }
 .logo{
-  background: url(../img/logo.png);
   width: 100%;
+  height: auto;
   position: relative;
-}
-header {
-  display: inline-block;
-  text-decoration: none;
+  z-index: -1;
+  display: center;
 }
 .nav{
-  width: 50%;
   position: relative;
+  float: right;
 }
 li{
   display: inline-block;
