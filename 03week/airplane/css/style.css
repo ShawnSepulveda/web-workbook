@@ -1,20 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background: url('../img/airline.jpg') no-repeat center center fixed;
+  background: url(../img/airline.jpg) no-repeat center center fixed;
   position:relative;
 }
+/* #logo {
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  .logo-image{
+    width: 100%;
+    height: auto;
+  } */
+  header{
+    background: url(../img/logo.png) no-repeat;
+    position: relative;
+  }
 .logo{
+  /* display: block;
+  position: absolute;
+  margin: -7px;
+  padding: 0px;
+  z-index: -1;
+  background-size: cover;
   width: 100%;
   height: auto;
-  position: relative;
-  z-index: -1;
-  display: center;
+  top: -1px; */
+
 }
+
 .nav{
+  margin: auto;
   position: relative;
-  float: right;
+  text-align: right;
+  padding: 15px;
+  top: -5px;
+  right: 40px;
+
 }
 li{
   display: inline-block;
   float:right;
   text-decoration: none;
+}
+#inner{
+  position: relative;
+    top: 200px;
+    left: 85px;
+    width: 400px;
+    height: 350px;
+    border: 3px solid #123387;
+}
+#inner > div:nth-child(1){
+  width: 33.33%;
+  height: 25%;
+  background-color: green;
+  float: left;
+  margin: 0 auto;
+  position: absolute;
+}
+#inner > div:nth-child(2){
+    width: 33.33%;
+    height: 25%;
+    float: right;
+    position: absolute;
+}
+#inner > div:nth-child(3){
+    width: 33.33%;
+    height: 25%;
+    float: right;
+    position: absolute;
 }
