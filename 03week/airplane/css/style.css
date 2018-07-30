@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*creates correct size for background*/
+div{
+  box-sizing: border-box;
+}
+/*https://css-tricks.com/perfect-full-page-background-image/ found for background sizing*/
+body {
+  background: url(../img/airline.jpg) no-repeat center center fixed;
+  position:relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.header {
+  background-color: #193A55;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.navi{
+  margin: auto;
+  position: relative;
+  padding: 20px;
+  top: 10px;
+  right: 40px;
+  float: right;
+}
+.navi li {
+  display:inline-block;
+  margin: 0px 10px;
+}
+.navi img {
+  margin-right: 5px;
+}
+.navi a{
+  text-decoration: none;
+}
+.inner{
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+  width: 35%;
+  position: relative;
+  top: 230px;
+  left: 40px;
+  background-color: #193A55;
+}
+
+.plane{
+width: 33.33%;
+height: 20%;
+margin-left: 0;
+margin-right: auto;
+text-align: center;
+position: absolute;
+background-color: #005099;
+}
+
+.hotel{
+  width: 33.33%;
+  height: 20%;
+  margin-left: 33.33%;
+  margin-right: auto;
+  text-align: center;
+  position: absolute;
+  background-color: #009975;
+}
+.car{
+  width: 33.33%;
+  height: 20%;
+  margin-left: 66.66%;
+  margin-right: auto;
+  text-align: center;
+  position: absolute;
+  background-color: #009975;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 38%;
+  top: 30%;
+  left: 5%;
+  justify-content: space-between;
+  border: 1px solid white;
+  background-color: inherit;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 38%;
+  top: 50%;
+  left: 5%;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 38%;
+  top: 30%;
+  left: 55%;
+  justify-content: space-between;
+  border: 1px solid white;
+  color: white;
+}
+.column4 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 38%;
+  top: 50%;
+  left: 55%;
+  justify-content: space-between;
+  border: 1px solid white;
+  color: white;
+  background-color: #193A55;
+}
+.Passengers{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 20%;
+  top: 70%;
+  left: 5%;
+  justify-content: space-between;
+  color: white;
+}
+.number{
+  /* position: relative; */
+}
+.numbers{
+    display: flex;
+    position: absolute;
+    background-color: inherit;
+    z-index: 1;
+    top: 70%;
+    left: 30%;
+    color: white;
+}
+option{
+  background-color: #193A55;
+  color: white;
+}
+.select{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 20%;
+  top: 70%;
+  left: 55%;
+  justify-content: space-between;
+  color: white;
+  display: inline-block;
+}
+
+.select1{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 20%;
+  top: 70%;
+  left: 70%;
+  justify-content: space-between;
+  color: white;
+  display: inline-block;
+}
+
+.button{
+   /* display: flex;
+  flex-direction: column; */
+  position: absolute;
+  width: 90%;
+  top: 82%;
+  left: 5%;
+  background-color: #005099;
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
