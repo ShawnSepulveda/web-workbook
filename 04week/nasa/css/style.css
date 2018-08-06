@@ -1,0 +1,76 @@
+.img-container{
+  background-image: url(../img/nasa-background.jpg);
+  width: 850px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.header{
+  position: absolute;
+    display:flex;
+    align-self: center;
+}
+.NASA{
+  position: relative;
+  color: white;
+  display:flex;
+}
+h1{
+  font-size: 100px;
+}
+section{
+  width: 850px;
+  height: 324px;
+  margin: 0 auto;
+  display: flex;
+  background-color: lightgray;
+}
+.img-container2{
+  width: 850px;
+  height: 324px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.body1{
+  width: 270px;
+  height: 324px;
+}
+.body2{
+  width: 270px;
+  height: 324px;
+}
+.body3{
+  width: 270px;
+  height: 324px;
+}
+.Message{
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+label{
+  display: block;
+}
+input{
+  display: block;
+}
+#Name{
+padding: 5px;
+width: 81%;
+}
+#Size{
+  padding: 30px;
+  display: block;
+}
+button{
+  background-color: gray;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    font-size: 16px;
+    margin: 4px 2px;
+}

@@ -5,6 +5,7 @@
 /*creates correct size for background*/
 div{
   box-sizing: border-box;
+  font-family: "Luciad Console",sans-serif, serif;
 }
 /*https://css-tricks.com/perfect-full-page-background-image/ found for background sizing*/
 body {
@@ -90,6 +91,7 @@ background-color: #005099;
   justify-content: space-between;
   border: 1px solid white;
   background-color: inherit;
+
 }
 .column2 {
   display: flex;
