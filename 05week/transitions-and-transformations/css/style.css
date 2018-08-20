@@ -1,0 +1,154 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trigger{
+  width: 50px;
+  height: 600px;
+  border: 1px solid green;
+}
+.square1{
+  background-color:green;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square2{
+  background-color:blue;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square3{
+  background-color:purple;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square4{
+  background-color:red;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square5{
+  background-color:teal;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square6{
+  background-color:lightblue;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square7{
+  background-color:gray;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square8{
+  background-color:#126498;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square9{
+  background-color:#863412;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square10{
+  background-color:#126543;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square11{
+  background-color:#875476;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+.square12{
+  background-color:black;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  pointer-events: none;
+}
+/*easier to work with*/
+.trigger:hover :nth-child(odd) {
+  transform:translate(600px,50px) rotate(45deg);
+  height: 25px;
+  width: 25px;
+}
+.trigger:hover :nth-child(even) {
+  transform: translate(-600px,-50px) rotate(-45deg);
+  height: 75px;
+  width: 75px;
+}
+/*not needed*/
+/* .trigger:hover .square1{
+  transform: translate(600px,0px);
+}
+.trigger:hover .square2{
+  transform: translate(-600px,0px);
+  height: 100px;
+  width: 100px;
+}
+.trigger:hover .square3{
+  transform: translate(600px,0px);
+}
+.trigger:hover .square4{
+  transform: translate(-600px,0px);
+  height: 100px;
+  width: 100px;
+}
+.trigger:hover .square5{
+  transform: translate(600px,0px);
+}
+.trigger:hover .square6{
+  transform: translate(-600px,0px);
+  height: 100px;
+  width: 100px;
+}
+.trigger:hover .square7{
+  transform: translate(600px,0px);
+}
+.trigger:hover .square8{
+  transform: translate(-600px,0px);
+  height: 100px;
+  width: 100px;
+}
+.trigger:hover .square9{
+  transform: translate(600px,0px);
+}
+.trigger:hover .square10{
+  transform: translate(-600px,0px);
+  height: 100px;
+  width: 100px;
+}
+.trigger:hover .square11{
+  transform: translate(600px,0px);
+}
+.trigger:hover .square12{
+  transform: translate(-600px,0px);
+  height: 100px;
+  width: 100px;
+} */
